@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="wiki@192.168.10.10" uuid="8f7f1014-2ea0-4d11-9d1a-40f85593d047">
+      <database-info product="MySQL" version="5.7.16-0ubuntu0.16.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>homestead</user-name>
+      <introspection-schemas>*:wiki</introspection-schemas>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <proxy-host>192.168.10.10</proxy-host>
+        <proxy-port>22</proxy-port>
+        <secret-storage>master_key</secret-storage>
+        <user>vagrant</user>
+        <use-password>true</use-password>
+        <private-key-path>$USER_HOME$/.ssh/id_rsa</private-key-path>
+      </ssh-properties>
+    </data-source>
+    <data-source name="tianyi@115.126.10.52" uuid="74841632-a4aa-454a-b0be-fb611c0323b9">
+      <database-info product="MySQL" version="5.6.36" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:tianyi</introspection-schemas>
+    </data-source>
+    <data-source name="tianyi@115.126.10.80" uuid="f4f6fcee-159d-4202-a025-0e48f051ee01">
+      <database-info product="MySQL" version="5.6.35-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:tianyi</introspection-schemas>
+    </data-source>
+  </component>
+</project>
